@@ -18,7 +18,7 @@ void demo() {
 }
 
 int main() {
-	demo();
+	//demo();
 	int max_n = 1,
 		max_x = 1;
 
@@ -41,7 +41,7 @@ int main() {
 		}
 	}
 
-	printf("F(%d) = %d\n", max_n, max_x);
+	printf("F( %d ) = %d\n", max_n, max_x);
 
 	return 0;
 }
